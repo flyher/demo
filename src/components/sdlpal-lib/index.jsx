@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import ControlPanel from './control-panel';
+import ToyPanel from './toy-panel';
 
 import { type } from '../../store/type';
 import './index.scss';
@@ -16,8 +17,14 @@ class SdlpalLib extends Component {
     console.log(this.props);
     return (
       <div className="sdlpal-lib">
-        body
-        <ControlPanel />
+        <div className="container-all">
+          <div className="left">
+            <ControlPanel />
+          </div>
+          <div className="right">
+            <ToyPanel />
+          </div>
+        </div>
       </div>
     )
   }

@@ -8,6 +8,7 @@ import './home.scss';
 export class PageHome extends Component {
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   render() {
