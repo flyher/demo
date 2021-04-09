@@ -7,6 +7,7 @@ import { Form, Button, ButtonGroup, ProgressBar } from 'react-bootstrap';
 
 import { type } from '../../../store/type';
 import './index.scss';
+import '../../../util/sdlpal';
 import { withWasm } from "react-wasm";
 
 
@@ -30,7 +31,7 @@ class ControlPanel extends Component {
 
   componentDidMount() {
     // 
-    const withAdd = withWasm({
+    const sdlpalWasm = withWasm({
       url: '../../../util/sdlpal.wasm'
     });
 

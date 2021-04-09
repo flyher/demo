@@ -17,7 +17,7 @@
 // before the code. Then that object will be used in the code, and you
 // can continue to use Module afterwards as well.
 
-// import { Module } from './module';
+import './main';
 
 var Module = typeof Module !== 'undefined' ? Module : {};
 

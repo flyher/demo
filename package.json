@@ -25,7 +25,8 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "jszip": "3.6.0",
-    "react-wasm": "^1.0.1"
+    "react-wasm": "^1.0.1",
+    "fs": "^0.0.1-security"
   },
   "scripts": {
     "start": "react-scripts start",
